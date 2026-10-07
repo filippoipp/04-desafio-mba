@@ -150,7 +150,7 @@ Prefixo da API existente: `/api/v1`. Todos os endpoints (exceto a entrega outbou
   "id": "550e8400-e29b-41d4-a716-446655440000",
   "customerId": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
   "url": "https://atlas.example.com/hooks/orders",
-  "secret": "whsec_8f3a2c1b9e0d4a7b6c5d4e3f2a1b0c9d",
+  "secret": "oms_wh_secret_example_only_not_a_real_key",
   "eventStatuses": ["SHIPPED", "DELIVERED"],
   "active": true,
   "createdAt": "2025-11-10T12:00:00.000Z"
@@ -259,7 +259,7 @@ Retorna os últimos ~100 envios (ou paginado com default alinhado a ~100).
 ```json
 {
   "id": "550e8400-e29b-41d4-a716-446655440000",
-  "secret": "whsec_NEVA_9a8b7c6d5e4f3a2b1c0d",
+  "secret": "oms_wh_secret_rotated_example_only_not_real",
   "previousSecretExpiresAt": "2025-11-11T12:00:00.000Z"
 }
 ```
